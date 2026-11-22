@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elias Reis | Estudante de ADS com foco em engenharia de dados</title>
+  <meta name="description" content="Portfólio de Elias Reis: estudante de Análise e Desenvolvimento de Sistemas, confeiteiro e futuro engenheiro de dados.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <a href="#inicio" class="brand">Elias Reis</a>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#competencias">Competências</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#curriculo">Currículo</a>
+      <a href="#certificados">Certificados</a>
+      <a href="#fora-do-codigo">Fora do código</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button id="tema" class="icon-btn" type="button" aria-label="Alternar entre modo claro e escuro">
+      <svg class="i-lua" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="i-sol" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    </button>
+    <button id="hamburguer" class="icon-btn menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <p class="hero-oi">Olá, eu sou</p>
+        <h1>Elias Reis</h1>
+        <p class="hero-cargo">Estudante de Análise e Desenvolvimento de Sistemas, com foco em engenharia de dados.</p>
+        <p class="hero-sub">Aprendendo a transformar dados brutos em informação que alguém queira consumir.</p>
+        <div class="hero-acoes">
+          <a class="btn btn-principal" href="#projetos">Ver projetos</a>
+          <a class="btn btn-borda" href="#contato">Falar comigo</a>
+        </div>
+      </div>
+      <div class="hero-foto">
+        <!-- Troque a imagem em images/foto-elias.jpg quando tiver uma foto melhor -->
+        <img src="images/foto-elias.jpg" alt="Foto de Elias Reis" width="400" height="400">
+      </div>
+    </section>
+
+    <!-- AGORA -->
+    <section class="etl reveal" aria-label="O que estou fazendo agora">
+      <div class="etl-passo etl-e">
+        <h2>Estudando</h2>
+        <p>Banco de dados e SQL para ciência de dados com Python, no certificado da IBM, e o 2º semestre de ADS na UDF.</p>
+      </div>
+      <div class="etl-passo etl-t">
+        <h2>Construindo</h2>
+        <p>Bases sólidas em banco de dados e novos projetos de ETL com mais profundidade.</p>
+      </div>
+      <div class="etl-passo etl-l">
+        <h2>Explorando</h2>
+        <p>Comandos no terminal Linux, cibersegurança e homelabs.</p>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="secao reveal">
+      <h2 class="titulo">Sobre mim</h2>
+      <div class="sobre-grid">
+        <div class="texto-longo">
+          <p>Sou formado em Gastronomia e ainda atuo como confeiteiro. Decidi migrar para a tecnologia porque o interesse por ela existe desde a minha adolescência, e só agora estou conseguindo conquistá-la.</p>
+          <p>Gosto de desafios e de aprender coisas novas. Me interessei muito pela área de dados, em especial engenharia de dados, e quero aprender tudo sobre o universo enorme dos bancos de dados. Segurança da informação é a minha curiosidade de bastidor, estudada como hobby.</p>
+          <p>Trago da cozinha a rotina de alta pressão: muitas demandas ao mesmo tempo, prazos rígidos e muito volume, resolvidos com organização, foco e responsabilidade.</p>
+        </div>
+        <aside class="ficha">
+          <h3>Em resumo</h3>
+          <dl>
+            <dt>Curso</dt><dd>Análise e Desenvolvimento de Sistemas, 2º semestre, UDF</dd>
+            <dt>Conclusão</dt><dd>Dezembro de 2027</dd>
+            <dt>Foco</dt><dd>Engenharia de dados</dd>
+            <dt>Cidade</dt><dd>Brasília, DF</dd>
+          </dl>
+          <h3>Pontos fortes</h3>
+          <ul class="chips">
+            <li>Lidar com pressão</li>
+            <li>Comunicação e escrita</li>
+            <li>Lógica e análise</li>
+            <li>Trabalho em equipe</li>
+            <li>Aprendizado rápido</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- COMPETÊNCIAS -->
+    <section id="competencias" class="secao reveal">
+      <h2 class="titulo">Competências técnicas</h2>
+      <p class="intro">Os pontos coloridos indicam o nível atual, como no currículo: <span class="legenda"><i class="ponto n2"></i> competente</span> <span class="legenda"><i class="ponto n1"></i> básico, em evolução</span></p>
+      <div class="skills">
+        <div class="skill-grupo">
+          <h3>Dados</h3>
+          <ul>
+            <li><i class="ponto n1"></i>Python para dados</li>
+            <li><i class="ponto n1"></i>Pandas</li>
+            <li><i class="ponto n1"></i>ETL</li>
+            <li><i class="ponto n1"></i>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-grupo">
+          <h3>Bancos de dados</h3>
+          <ul>
+            <li><i class="ponto n1"></i>Modelagem lógica e física</li>
+            <li><i class="ponto n1"></i>PostgreSQL</li>
+            <li><i class="ponto n1"></i>MySQL</li>
+          </ul>
+        </div>
+        <div class="skill-grupo">
+          <h3>Base e ferramentas</h3>
+          <ul>
+            <li><i class="ponto n2"></i>Lógica de programação</li>
+            <li><i class="ponto n2"></i>Git e GitHub</li>
+            <li><i class="ponto n1"></i>Linux</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="secao reveal">
+      <h2 class="titulo">Projetos</h2>
+      <div class="projetos">
+        <article class="projeto">
+          <h3>Open-Meteo ETL</h3>
+          <p>Pipeline que extrai temperatura e precipitação históricas de cinco cidades pela API Open-Meteo, calcula amplitude térmica e média móvel de 7 dias, marca se choveu e grava tudo em CSV e SQLite.</p>
+          <p>Evita duplicatas usando cidade e data como chave composta, tanto no banco quanto no CSV.</p>
+          <a class="figura" href="images/exemplo-saida-etl.png" data-lightbox data-titulo="Exemplo de saída do pipeline ETL" title="Clique para ampliar">
+            <img src="images/exemplo-saida-etl.png" alt="Exemplo da tabela gerada pelo pipeline, com colunas de cidade, data, temperaturas, precipitação, amplitude térmica, choveu e média móvel de 7 dias" loading="lazy" width="1156" height="384">
+          </a>
+          <!-- Segunda imagem: salve o arquivo em images/etl-projeto-2.png (se for .jpg, troque a extensão aqui nas duas linhas) -->
+          <a class="figura" href="images/etl-projeto-2.png" data-lightbox data-titulo="Projeto Open-Meteo ETL" title="Clique para ampliar">
+            <img src="images/etl-projeto-2.png" alt="Segunda imagem do projeto Open-Meteo ETL">
+          </a>
+          <ul class="chips"><li>Python</li><li>Pandas</li><li>SQLite</li><li>API REST</li><li>ETL</li></ul>
+          <a class="link" href="https://github.com/Elias-Reis/etl-clima" target="_blank" rel="noopener">Ver no GitHub</a>
+        </article>
+
+        <article class="projeto">
+          <h3>Banco de dados de uma cafeteria</h3>
+          <p>Banco relacional de uma rede de cafeterias com 6 tabelas: transações de venda, itens vendidos, produtos, categorias, funcionários e lojas. O modelo lógico foi desenhado no pgAdmin e o banco criado com script SQL.</p>
+          <p>Categoria e tipo de produto ficam em uma tabela própria, para não repetir esses dados em cada produto. Também criei uma view que junta funcionários e lojas e uma view materializada com as informações de produto e categoria.</p>
+          <a class="figura" href="images/modelo-logico-cafeteria.png" data-lightbox data-titulo="Modelo lógico do banco da cafeteria" title="Clique para ampliar">
+            <img src="images/modelo-logico-cafeteria.png" alt="Diagrama do modelo lógico com as tabelas sales_transactions, sales_details, product, category_type, staff e store" loading="lazy" width="1100" height="567">
+          </a>
+          <ul class="chips"><li>PostgreSQL</li><li>pgAdmin</li><li>Modelo lógico</li><li>Views</li><li>SQL</li></ul>
+          <!-- Quando subir para o GitHub, troque este span por: <a class="link" href="SEU-LINK" target="_blank" rel="noopener">Ver no GitHub</a> -->
+          <span class="link link-off">Repositório em breve</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- CURRÍCULO -->
+    <section id="curriculo" class="secao reveal">
+      <h2 class="titulo">Currículo</h2>
+      <article class="papel">
+        <header class="papel-topo">
+          <div>
+            <h3>Elias Reis</h3>
+            <p class="papel-cargo">Estudante de ADS | Foco em Dados</p>
+            <p class="papel-contato">Brasília • (61) 9 8318-2950 • elias221147@gmail.com</p>
+          </div>
+          <a class="btn btn-borda" href="images/curriculo-elias-reis.pdf" target="_blank" rel="noopener">Abrir em PDF</a>
+        </header>
+
+        <div class="papel-bloco">
+          <h4>Resumo profissional</h4>
+          <p>Profissional em transição da confeitaria para a tecnologia, iniciando a graduação em Análise e Desenvolvimento de Sistemas. Busca oportunidade para adquirir experiência prática e crescer na área de dados. Diferencial: vivência em ambientes de alta pressão, com múltiplas demandas, prazos rigorosos e grande volume de informações.</p>
+        </div>
+
+        <div class="papel-bloco">
+          <h4>Experiência profissional</h4>
+          <div class="linha-tempo">
+            <div class="item">
+              <span class="data">abr. 2026 – atual</span>
+              <div>
+                <h5>Auxiliar de Confeitaria, Senac DN</h5>
+                <ul>
+                  <li>Produção em larga escala para cerca de 800 pessoas por dia, sem atrasos nas entregas.</li>
+                  <li>Controle de temperatura e porcionamento conforme fichas técnicas.</li>
+                  <li>Organização do tempo em equipe grande e hierarquizada, cumprindo prazos apertados.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span class="data">jun. 2024 – out. 2025</span>
+              <div>
+                <h5>Confeiteiro Intermediário, Cozinha Alice</h5>
+                <ul>
+                  <li>Bolos, doces finos e bombons premium para cerca de 2 grandes eventos por semana, além de encomendas.</li>
+                  <li>Padronização de processos e revisões diárias, mantendo o desperdício no mínimo.</li>
+                  <li>Orientação de 3 pessoas e liderança da equipe na ausência do chef.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <span class="data">fev. 2022 – dez. 2023</span>
+              <div>
+                <h5>Auxiliar de Cozinha, Dona Lenha</h5>
+                <ul>
+                  <li>Montagem e finalização de pratos em restaurante com cerca de 1000 clientes por dia.</li>
+                  <li>Pratos entregues em menos de 30 minutos no horário de pico.</li>
+                  <li>Recebimento, conferência e armazenamento de insumos perecíveis, controlando a validade.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="papel-bloco">
+          <h4>Formação acadêmica</h4>
+          <div class="linha-tempo">
+            <div class="item">
+              <span class="data">2026 – atual</span>
+              <div>
+                <h5>Análise e Desenvolvimento de Sistemas, UDF</h5>
+                <ul><li>Previsão de conclusão: dezembro de 2027.</li><li>Disciplinas relevantes: Modelagem de Dados, Python, Banco de Dados Relacionais e Lógica de Programação.</li></ul>
+              </div>
+            </div>
+            <div class="item">
+              <span class="data">2024 – dez. 2025</span>
+              <div><h5>Graduação em Gastronomia, UDF</h5></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="papel-bloco">
+          <h4>Cursos</h4>
+          <div class="linha-tempo">
+            <div class="item">
+              <span class="data">set. 2026 – atual</span>
+              <div>
+                <h5>Certificado Profissional de Engenharia de Dados, IBM (Coursera)</h5>
+                <ul><li>Em andamento: módulo de bancos de dados e SQL para ciência de dados com Python.</li></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- CERTIFICADOS -->
+    <section id="certificados" class="secao reveal">
+      <h2 class="titulo">Certificados</h2>
+      <p class="intro">Certificados que conquistei até o momento:</p>
+      <div class="certs">
+        <article class="cert">
+          <h3>Introduction to Relational Databases (RDBMS)</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/introducao-bancos-relacionais.pdf" data-lightbox data-titulo="Introduction to Relational Databases (RDBMS)">Ver certificado</a>
+        </article>
+        <article class="cert">
+          <h3>Python Project for Data Engineering</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/python-project-data-engineering.pdf" data-lightbox data-titulo="Python Project for Data Engineering">Ver certificado</a>
+        </article>
+        <article class="cert">
+          <h3>Introduction to Data Engineering</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/introducao-engenharia-de-dados.pdf" data-lightbox data-titulo="Introduction to Data Engineering">Ver certificado</a>
+        </article>
+        <article class="cert">
+          <h3>Python for Data Science and AI: Hands-On Development</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/python-data-science-ai.pdf" data-lightbox data-titulo="Python for Data Science and AI: Hands-On Development">Ver certificado</a>
+        </article>
+        <article class="cert">
+          <h3>Data Science Methodology: Apply the Framework in Real Projects</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/data-science-methodology.pdf" data-lightbox data-titulo="Data Science Methodology: Apply the Framework in Real Projects">Ver certificado</a>
+        </article>
+        <article class="cert">
+          <h3>Essential Tools for Data Scientists: Git, Jupyter and More</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/essential-tools-data-scientists.pdf" data-lightbox data-titulo="Essential Tools for Data Scientists: Git, Jupyter and More">Ver certificado</a>
+        </article>
+        <article class="cert">
+          <h3>Data Science Foundations: Tools, Careers and Real-World Applications</h3>
+          <p class="cert-emissor">IBM, pelo Coursera</p>
+          <a class="link" href="certificados/data-science-foundations.pdf" data-lightbox data-titulo="Data Science Foundations: Tools, Careers and Real-World Applications">Ver certificado</a>
+        </article>
+        <!-- Para adicionar um certificado novo: copie um bloco <article class="cert"> acima, troque o título e o nome do PDF, e salve o PDF na pasta certificados/ -->
+        <article class="cert cert-vazio">
+          <h3>Próximos certificados</h3>
+          <p>Novas conquistas entram aqui conforme eu avanço nos estudos.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FORA DO CÓDIGO -->
+    <section id="fora-do-codigo" class="secao reveal">
+      <h2 class="titulo">Fora do código</h2>
+      <div class="hobbies">
+        <article class="hobby h-rosa">
+          <h3>Música</h3>
+          <p>Escutar música é um hobby, e descobrir álbuns e estilos diferentes é algo que aprecio muito.</p>
+        </article>
+        <article class="hobby h-laranja">
+          <h3>Cozinha</h3>
+          <p>Cozinhar para quem eu gosto, aprender técnicas novas e descobrir sabores.</p>
+        </article>
+        <article class="hobby h-verde">
+          <h3>Faça você mesmo</h3>
+          <p>Homelabs, servidores pessoais, cyberdecks e casa inteligente. É onde a tecnologia vira hobby.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao reveal">
+      <h2 class="titulo">Contato</h2>
+      <div class="contato-grid">
+        <div>
+          <p class="intro">Quer conversar sobre dados, uma oportunidade ou só trocar uma ideia? Escreva pelo formulário ou use um dos links.</p>
+          <ul class="links">
+            <li><a href="mailto:elias221147@gmail.com">elias221147@gmail.com</a></li>
+            <li><a href="https://wa.me/5561983182950" target="_blank" rel="noopener">WhatsApp: (61) 9 8318-2950</a></li>
+            <li><a href="https://www.linkedin.com/in/elias1reis/" target="_blank" rel="noopener">LinkedIn: elias1reis</a></li>
+            <li><a href="https://github.com/Elias-Reis" target="_blank" rel="noopener">GitHub: Elias-Reis</a></li>
+          </ul>
+        </div>
+        <form id="form-contato" class="form" novalidate>
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" autocomplete="name" required>
+          <small class="erro" data-erro="nome"></small>
+
+          <label for="email">Seu e-mail</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <small class="erro" data-erro="email"></small>
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          <small class="erro" data-erro="mensagem"></small>
+
+          <button class="btn btn-principal" type="submit">Enviar mensagem</button>
+          <p id="form-status" class="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano">2026</span> Elias Reis. Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <dialog id="modal" class="modal" aria-labelledby="modal-titulo">
+    <div class="modal-topo">
+      <h2 id="modal-titulo" class="modal-titulo"></h2>
+      <button id="modal-fechar" class="icon-btn" type="button" aria-label="Fechar">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div id="modal-corpo" class="modal-corpo"></div>
+    <div id="modal-rodape" class="modal-rodape" hidden>
+      <a id="modal-link" class="link" href="#" target="_blank" rel="noopener">Abrir em nova aba</a>
+    </div>
+  </dialog>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
