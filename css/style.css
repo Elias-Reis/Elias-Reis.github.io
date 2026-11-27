@@ -153,7 +153,7 @@ dd { margin: 0; font-weight: 500; }
 .ponto { display: inline-block; width: 12px; height: 12px; border-radius: 50%; flex: none; }
 .ponto.n1 { background: var(--laranja); }
 .ponto.n2 { background: var(--verde); }
-.legenda { display: inline-flex; align-items: center; gap: .35rem; margin-left: .75rem; }
+.legenda { display: inline-flex; align-items: center; gap: .35rem; margin-right: 1.25rem; }
 
 /* ===== Projetos ===== */
 .projetos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
